@@ -1,0 +1,68 @@
+2025-07-09 13:24:49 [restartedMain] INFO  c.br.app.authapi.AuthapiApplication - Starting AuthapiApplication using Java 21.0.6 with PID 18188 (C:\Users\felipe\Downloads\1752014713912+authapi\authapi\target\classes started by felipe in C:\Users\felipe\Downloads\1752014713912+authapi)
+2025-07-09 13:24:49 [restartedMain] INFO  c.br.app.authapi.AuthapiApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-09 13:24:52 [restartedMain] INFO  c.br.app.authapi.AuthapiApplication - Started AuthapiApplication in 3.982 seconds (process running for 4.379)
+2025-07-09 13:24:55 [restartedMain] INFO  c.br.app.authapi.AuthapiApplication - Starting AuthapiApplication using Java 21.0.6 with PID 18188 (C:\Users\felipe\Downloads\1752014713912+authapi\authapi\target\classes started by felipe in C:\Users\felipe\Downloads\1752014713912+authapi)
+2025-07-09 13:24:55 [restartedMain] INFO  c.br.app.authapi.AuthapiApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-09 13:24:55 [restartedMain] INFO  c.br.app.authapi.AuthapiApplication - Started AuthapiApplication in 0.506 seconds (process running for 7.399)
+2025-07-09 13:25:36 [restartedMain] INFO  c.br.app.authapi.AuthapiApplication - Starting AuthapiApplication using Java 21.0.6 with PID 9516 (C:\Users\felipe\Downloads\1752014713912+authapi\authapi\target\classes started by felipe in C:\Users\felipe\Downloads\1752014713912+authapi)
+2025-07-09 13:25:36 [restartedMain] INFO  c.br.app.authapi.AuthapiApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-09 13:25:40 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2025-07-09 13:25:40 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-07-09 13:25:40 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2025-07-09 13:29:38 [restartedMain] INFO  c.br.app.authapi.AuthapiApplication - Starting AuthapiApplication using Java 21.0.6 with PID 2420 (C:\Users\felipe\Downloads\1752014713912+authapi\authapi\target\classes started by felipe in C:\Users\felipe\Downloads\1752014713912+authapi)
+2025-07-09 13:29:38 [restartedMain] INFO  c.br.app.authapi.AuthapiApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-09 13:29:42 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2025-07-09 13:29:42 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-07-09 13:29:42 [restartedMain] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2025-07-09 13:31:11 [http-nio-8080-exec-6] INFO  c.b.a.a.a.useCase.AuthUseCase - Usuário cadastrado: felipe10
+2025-07-09 13:31:11 [http-nio-8080-exec-6] INFO  c.b.a.a.i.controllers.AuthController - Usuário registrado com sucesso: felipe10
+2025-07-09 13:31:55 [http-nio-8080-exec-8] INFO  c.b.a.a.i.security.EmailService - Enviando OTP 412885 para felipepalopoli@gmail.com
+2025-07-09 13:31:55 [http-nio-8080-exec-8] INFO  c.b.a.a.a.useCase.AuthUseCase - OTP enviado para felipepalopoli@gmail.com para username: felipe10
+2025-07-09 13:31:55 [http-nio-8080-exec-8] INFO  c.b.a.a.a.useCase.AuthUseCase - Token JWT gerado para username: felipe10
+2025-07-09 13:31:55 [http-nio-8080-exec-8] INFO  c.b.a.a.i.controllers.AuthController - Autenticação iniciada para usuário: felipe10. OTP enviado.
+2025-07-09 13:31:57 [http-nio-8080-exec-7] INFO  c.b.a.a.i.security.EmailService - Enviando OTP 911908 para felipepalopoli@gmail.com
+2025-07-09 13:31:57 [http-nio-8080-exec-7] INFO  c.b.a.a.a.useCase.AuthUseCase - OTP enviado para felipepalopoli@gmail.com para username: felipe10
+2025-07-09 13:31:57 [http-nio-8080-exec-7] INFO  c.b.a.a.a.useCase.AuthUseCase - Token JWT gerado para username: felipe10
+2025-07-09 13:31:57 [http-nio-8080-exec-7] INFO  c.b.a.a.i.controllers.AuthController - Autenticação iniciada para usuário: felipe10. OTP enviado.
+2025-07-09 13:33:55 [http-nio-8080-exec-1] INFO  c.b.a.a.i.security.EmailService - Enviando OTP 443099 para felipepalopoli@gmail.com
+2025-07-09 13:33:55 [http-nio-8080-exec-1] INFO  c.b.a.a.a.useCase.AuthUseCase - OTP enviado para felipepalopoli@gmail.com para username: felipe10
+2025-07-09 13:33:55 [http-nio-8080-exec-1] INFO  c.b.a.a.a.useCase.AuthUseCase - Token JWT gerado para username: felipe10
+2025-07-09 13:33:55 [http-nio-8080-exec-1] INFO  c.b.a.a.i.controllers.AuthController - Autenticação iniciada para usuário: felipe10. OTP enviado.
+2025-07-09 14:02:45 [HikariPool-2 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=9m49s509ms214µs700ns).
+2025-07-09 14:06:00 [http-nio-8080-exec-3] INFO  c.b.a.a.i.security.EmailService - Enviando OTP 529922 para felipepalopoli@gmail.com
+2025-07-09 14:06:00 [http-nio-8080-exec-3] INFO  c.b.a.a.a.useCase.AuthUseCase - OTP enviado para felipepalopoli@gmail.com para username: felipe10
+2025-07-09 14:06:00 [http-nio-8080-exec-3] INFO  c.b.a.a.a.useCase.AuthUseCase - Token JWT gerado para username: felipe10
+2025-07-09 14:06:00 [http-nio-8080-exec-3] INFO  c.b.a.a.i.controllers.AuthController - Autenticação iniciada para usuário: felipe10. OTP enviado.
+2025-07-09 14:08:18 [http-nio-8080-exec-10] INFO  c.b.a.a.a.useCase.AuthUseCase - Verificação OTP para username: felipe10 - Falha
+2025-07-09 14:08:18 [http-nio-8080-exec-10] ERROR c.b.a.a.i.controllers.AuthController - Erro ao verificar OTP para usuário felipe10: OTP inválido
+2025-07-09 14:09:04 [http-nio-8080-exec-4] INFO  c.b.a.a.a.useCase.AuthUseCase - Verificação OTP para username: felipe10 - Sucesso
+2025-07-09 14:09:04 [http-nio-8080-exec-4] INFO  c.b.a.a.a.useCase.AuthUseCase - Token JWT gerado após verificação OTP para username: felipe10
+2025-07-09 14:09:04 [http-nio-8080-exec-4] INFO  c.b.a.a.i.controllers.AuthController - OTP verificado com sucesso para usuário: felipe10
+2025-07-09 15:52:58 [HikariPool-2 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1h26m43s284ms447µs500ns).
+2025-07-09 16:28:06 [HikariPool-2 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=9m37s160ms911µs).
